@@ -1,4 +1,5 @@
 file= open("test1.txt", "r")
+#Aqui puedes reempalar el nombre del archivo que pongas en la misma carptea para que lo lea y hacer los test
 lista_aux=file.readlines()
 unidos=",".join(lista_aux)
 tokens1=unidos.split(":")
